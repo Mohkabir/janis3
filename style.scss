@@ -1,0 +1,440 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.logo{
+    color: #075b85;
+    font-size: 18px;
+    padding: 7px 0;
+}
+strong{
+    color: #075b85;
+}
+p{
+    line-height: 30px !important;
+    font-size: 18px !important;
+}
+
+h1,h2,h3,h4{
+    font-family: Raleway,Verdana,Arial !important;
+    font-weight: 600!important;
+}
+
+.foot-btn{
+    margin: 30px auto;
+    width: initial;
+    text-align: center;
+    button{
+        
+        a{
+            font-weight: 700;
+            padding: 15px 30px;
+        }
+        &:hover{
+            background-color: #a10f0f;
+        }
+    }
+    
+}
+.contain{
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+}
+
+.center{
+    text-align: center;
+    margin:20px auto;
+    font-style: normal;
+}
+
+.red{
+    color: red;
+}
+
+nav{
+    padding: 10px 0;
+    .nav{
+        border-bottom: 3px double #0093dd;
+        h1{
+            font-size: 1.6em;
+            padding: 10px;
+            color: #075b85;
+        }
+    }
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    font-size: 1.1em;
+}
+
+h1>b{
+    margin: 20px 0;
+    font-size: 1em;
+}
+h2{
+    font-size: 1.2em;
+}
+h4{
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1.6em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(53, 123, 170);
+}
+
+.sub-head{
+    font-size: 1.3em;
+}
+
+.fixed{
+    position: fixed;
+    background: rgb(42, 103, 164);
+    padding : 20px 10px;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    p{
+        font-size: 1.1em;
+    }
+}
+
+.img{
+    max-width: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+main{
+    position: relative;
+    .container{
+        .left-text{
+            p{
+                line-height: 23px;
+                margin :20px 0;
+            }
+            p>b{
+                font-weight: 600;
+                font-style: italic;
+            }
+            .flex{
+                display: flex;
+            }
+            .flex-img{
+                width: 100%;
+                justify-content: space-evenly;
+                margin: 20px 0;
+                img{
+                    width:60px;
+                }
+            }
+            h5{
+                font-size: 1.1em;
+            }
+            .aside{
+                h4{
+                    margin: 0;
+                }
+                .img{
+                    img{
+                        width: 60%;
+                    }
+                }
+            }
+            .list{
+                font-style: italic;
+                li{
+                    font-size: 1.1em;
+                    margin: 2px 0;
+                }
+            }
+            h1{
+                font-weight: normal;
+                margin: 20px 0 0 0;
+            }
+            .flex-text{
+                display: flex;
+                align-items: flex-start;
+                margin: 30px 0;
+                p{
+                    margin:  0 0 20px 0;
+                }
+                img{
+                    width:70px;
+                }
+            }
+            .flex-foot {
+                text-align: center;
+                flex-direction: column;
+                width: 100%;
+                margin:30px auto;
+                .img{
+                    width: 70%;
+                }
+                .left-btn{
+                    text-align: center;
+                    p{
+                        margin: 10px auto;
+                    }
+                }
+            }
+            .comment-div{
+                margin: 30px 0;
+                span{
+                    color: #45688e;
+                    font-weight: bold;
+                    font-size: 10px;
+                }
+                .flex-comment{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 5px 0 25px 0;
+                    border-bottom: 1px solid #dae1e8;
+                    padding: 0 0 10px 0;
+                    .img{
+                        img{
+                            width: 50px;
+                        }
+                    }
+                    .text{
+                        padding: 0 3px;
+                        margin-left: 14px;
+                        line-height: 1.6;
+                        h6{
+                            color: #0093dd;
+                            font-weight: 600;
+                            font-size: 0.8em;
+                        }
+                        p{
+                            margin: 0;
+                            line-height: 1.4;
+                            font-size: 0.8em;
+                        }
+                        a{   color: #0a78c2;
+                            margin-top: 10px;
+                        }
+                        .comment-num{
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                        }
+                    }
+                }
+                .foot-btn{
+                    text-align: center;
+                    button{
+                        padding: 10px 15px;
+                    }
+                }
+            }
+        }
+        .right-text{
+            background: white;
+            padding: 10px;
+            margin: 30px 0;
+            padding: 10px;
+            box-shadow: 0 0 4px #cac6c6;
+            .right-inner{
+                text-align: center;
+                padding: 5px;
+                .flex-img{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 20px 0;
+                    img{
+                        width:45%;
+                        border: 2px solid gray;
+                    }
+                }
+                p{
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    p{
+        text-align: center;
+        margin: 20px 0 90px 0;
+        color: #0093dd;
+        font-size: 1.1em;
+    }
+}
+
+hr{
+    opacity: 0.2;
+}
+
+.btn{
+    button{
+        margin: 5px auto;
+        padding: 15px 10px;
+        font-size: 1em;
+        border-radius: 13px;
+        background: red;
+        text-decoration: none;
+        border: none;
+        a{
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (min-width : 760px) {
+    body{
+        font-size: 17px;
+    }
+
+    .contain{
+        width: 90%; 
+        max-width: 700px;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
+    .img{
+        max-width: 600px;
+    }
+
+    main{
+        .container{
+            .left-text{
+                .flex-img{
+                    img{
+                        width:100px;
+                    }
+                }
+                .flex-text{
+                    align-items: stretch;
+                    img{
+                        width:200px;
+                    }
+                }
+                .flex-foot {
+                    .img{
+                        width: 50%;
+                    }
+                }
+                .comment-div{
+                    .flex-comment{
+                        .img{
+                            img{
+                                width: 70px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }        
+
+}
+
+
+
+
+
+@media screen and (min-width : 1000px) {
+    body{
+        font-size: 18px;
+    }
+
+    .container{
+        display: flex;
+        align-items: flex-start;
+        .left-text{
+            width: 65%;
+        }
+        .right-text{
+            width: 35%;
+        }
+    }
+
+    .contain{
+        width: 90%; 
+        max-width: 1000px;
+    }
+
+    main{
+        .container{
+            .left-text{
+                .flex-foot {
+                    flex-direction: row;
+                    align-items: center;
+                    .img{
+                        width: 50%;
+                    }
+                }
+                .comment-div{
+                    .flex-comment{
+                        .img{
+                            img{
+                                width: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+
+    main{
+        .container{
+            .left-text{
+                .flex-img{
+                    img{
+                        width:100px;
+                    }
+                }
+                .flex-text{
+                    img{
+                        width:200px;
+                    }
+                }
+                .flex-foot {
+                    .img{
+                        width: 50%;
+                    }
+                }
+                .comment-div{
+                    .flex-comment{
+                        .img{
+                            img{
+                                width: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }        
+
+}
+
+
